@@ -1,1 +1,3 @@
 Get-Printer | ForEach-Object { Set-PrintConfiguration -PrinterName $.Name -Color $false -DuplexingMode TwoSidedLongEdge}
+
+ms-settings:signinoptions
